@@ -1,0 +1,5 @@
+<application>
+  <component name="RefactoringSettings">
+    <option name="PUSH_DOWN_PREVIEW_USAGES" value="true" />
+  </component>
+</application>
