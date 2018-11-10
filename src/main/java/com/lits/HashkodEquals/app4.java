@@ -10,18 +10,19 @@ public class app4 {
 //        System.out.println (object1.hashCode() == object2.hashCode());
 
         Class object3 = new Class();
-        object3.firstName = "Ira";
+        object3.firstName = "Iruna";
         object3.lastName = "Grab";
-        System.out.println(object3.razom());
+        object3.age = 3;
 
-        String a;
-        int hCode1;
-        a = object3.razom();
-        hCode1 = a.hashCode();
-        System.out.println(hCode1);
+        System.out.println(object3.name());
 
-        object3.age = 20;
-        System.out.println(object3.age * hCode1);
+//        String a;
+//        a=object3.name;
+//        System.out.println(a.length());
+
+        int hKode;
+        hKode = object3.hashCode();
+        System.out.println(hKode);
 
 
     }
